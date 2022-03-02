@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SharePoint SPFx Testing" tests="1" failures="1" errors="0" time="12.235">
+  <testsuite name="add to cart" errors="0" failures="1" skipped="0" timestamp="2022-03-01T20:32:45" time="11.995" tests="1">
+    <testcase classname="add to cart should be checked" name="add to cart should be checked" time="8.779">
+      <failure>TimeoutError: Text found &quot;empty&quot;
+waiting for function failed: timeout 500ms exceeded</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
