@@ -44,7 +44,6 @@ describe('add to cart', () => {
         //check if it's actually added
         await expect(page).toClick(viewMyCartSelector);
         await page.waitForTimeout(1000);
-        await expect(page).not.toMatch('empty');
         const itemInCart = await page.evaluate(() => document.querySelector('.cart-item__name').href);
         const [, productFromCartID] = itemInCart.match(/.*\/products\/([a-z\-0-9]*)(\?.*)?/i);
         
